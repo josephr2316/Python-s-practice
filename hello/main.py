@@ -12,13 +12,7 @@ print(type("Hello Python"))  # Type 'str'
 print(type("Soy un dato str"))  # Type 'str'
 print(type(5))  # Type 'int'
 print(type(True))  # Type 'bool'
-print(type(1 +1j))  # Type 'complex'
-
-
-
-
-
-
+print(type(1 + 1j))  # Type 'complex'
 
 """
 This is a 
