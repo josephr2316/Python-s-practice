@@ -34,7 +34,7 @@ print(len(my_string_variable))
 
 # Variables en una sola linea,!Cuidado con abusar de esta sintaxis!
 name, surname, nickname, age, = "Joseph", "Rodriguez Kelly", "Elior", 28
-print("My name is:", name, surname, ". I'm :", age,"years old. My nickname is: ",nickname)
+print("My name is:", name, surname, ". I'm :", age, "years old. My nickname is: ", nickname)
 
 # Inputs
 """
