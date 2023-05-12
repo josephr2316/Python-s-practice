@@ -46,7 +46,6 @@ print(tuple(my_tuple))
 my_tuple = tuple(my_tuple)
 print(type(my_tuple))
 
-
 # del my_tuple[2]  # TypeError: 'tuple' object doesn't support item deletion immutable
 
 del my_tuple  # Delete the tuple
