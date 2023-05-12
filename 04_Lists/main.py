@@ -110,3 +110,4 @@ print(my_new_list)
 
 print(my_new_list[1:2])
 print(my_new_list[1:3])
+print(my_new_list.index(30))
