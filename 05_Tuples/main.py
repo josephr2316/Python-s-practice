@@ -1,16 +1,53 @@
-# This is a sample Python script.
+### Tuples ###
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+my_tuple = tuple()
+my_other_tuple = ()
+
+print(my_tuple)
+print(my_other_tuple)
+
+my_tuple = (28, 1.85, "Joseph", "Rodriguez Kelly", "Rodriguez Kelly")
+my_other_tuple = (35, 60, 30)
+print(my_tuple)
+print(type(my_tuple))
+
+print(my_tuple[0])
+print(my_tuple[-1])
+# print(my_tuple[4])  # IndexError
+# print(my_tuple[-6])  # IndexError
+
+# duoble 2 elements, triple 3 elements, quadruple 4 elements etc...
+
+print(my_tuple.count("Rodriguez Kelly"))
+print(my_tuple.index("Joseph"))
+print(my_tuple.index("Rodriguez Kelly"))
+print(my_tuple)
+
+"""
+my_tuple[1] = 1.90  # Values can't be changed
+"""
+
+print(my_tuple + my_other_tuple)
+
+my_sum_tuple = my_tuple + my_other_tuple
+print(my_sum_tuple)
+print(type(my_sum_tuple))
+
+print(my_sum_tuple[3:4])
+print(my_sum_tuple[3:6])
+
+my_tuple = list(my_tuple)
+print(type(my_tuple))
+
+my_tuple[4] = "Joseph Dev"
+my_tuple.insert(1, "Green")
+print(my_tuple)
+print(tuple(my_tuple))
+my_tuple = tuple(my_tuple)
+print(type(my_tuple))
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# del my_tuple[2]  # TypeError: 'tuple' object doesn't support item deletion immutable
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+del my_tuple  # Delete the tuple
+# print(my_tuple) NameError: name 'my_tuple' is not defined
