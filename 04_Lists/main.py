@@ -1,5 +1,6 @@
 ### Lists ###
 from typing import List
+
 # Capital letter when you want to create a constant variable, just to identify, remember the value will change,
 # cus python doesn't have constants
 
@@ -46,9 +47,9 @@ print(surname)
 
 print(my_list + my_other_list)
 
-print(list([1,2,3,4]))
-print([1,2,3,4])
-print(list[1,2,3,4]) #  This is not a list
+print(list([1, 2, 3, 4]))
+print([1, 2, 3, 4])
+print(list[1, 2, 3, 4])  # This is not a list
 
 # print(my_list * my_other_list) # Won't work
 # print(my_list - my_other_list) # Won't work
@@ -65,7 +66,47 @@ my_list = ["Hello Python"]
 print(my_list)
 print(type(my_list))
 
+my_other_list.append("EliotDev")  # To the end, is added the new element
+print(my_other_list)
 
+my_other_list.insert(1, "Green")  # The new value is insert, but rotate the previous value
+print(my_other_list)
 
+my_other_list.remove("Green")
+print(my_other_list)
 
+my_list: List = [35, 24, 62, 52, 30, 30, 17]
+my_list.remove(30)  # Only delete the first element, which found with this value
+print(my_list)
 
+print(my_list.pop())  # Delete the last element
+my_pop_element = my_list.pop(2)  # The index I want to pop
+print(my_pop_element)
+print(my_list)
+
+del my_list[2]  # Delete an element of the list
+print(my_list)
+
+my_new_list = my_list.copy()
+my_list.clear()
+print(my_list)
+print(my_new_list)
+
+print(my_new_list.reverse())
+print(my_new_list)
+
+my_other_list.insert(1, "White")
+print(my_other_list)
+my_other_list[1] = "Green"
+print(my_other_list)
+
+my_new_list.reverse()
+var = my_new_list[::-1]
+print(my_new_list)
+print(var)
+
+my_new_list.sort()
+print(my_new_list)
+
+print(my_new_list[1:2])
+print(my_new_list[1:3])
