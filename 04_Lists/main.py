@@ -1,5 +1,7 @@
 ### Lists ###
 from typing import List
+# Capital letter when you want to create a constant variable, just to identify, remember the value will change,
+# cus python doesn't have constants
 
 my_list = list()  # We don't have to initialize the variable
 my_other_list = []
@@ -47,6 +49,21 @@ print(my_list + my_other_list)
 print(list([1,2,3,4]))
 print([1,2,3,4])
 print(list[1,2,3,4]) #  This is not a list
+
+# print(my_list * my_other_list) # Won't work
+# print(my_list - my_other_list) # Won't work
+
+my_list = "Hello Python"
+print(my_list)
+print(type(my_list))
+
+my_list = list("Hello Python")
+print(my_list)
+my_list = list(["Hello Python"])
+print(my_list)
+my_list = ["Hello Python"]
+print(my_list)
+print(type(my_list))
 
 
 
