@@ -63,9 +63,45 @@ print(my_new_dict)
 my_new_dict = dict.fromkeys(("Name", 1, "Floor", "Surname"))
 print(my_new_dict)
 
-my_new_dict = dict.fromkeys(my_dict)
+my_new_dict = dict.fromkeys(my_dict,("Josephr", "Rodriguez kelly"))
 print(my_new_dict)
 
+# my_new_dict = dict.fromkeys(my_dict,"Josephr", "Rodriguez kelly") # Won't work
 
-my_new_dict = dict.fromkeys(my_dict, )
+my_new_dict = dict.fromkeys(my_dict, my_dict)
 print(my_new_dict)
+
+my_new_dict = dict.fromkeys(my_dict, ["Joseph", "Rodriguez Kelly"])  # It's the same as line 66
+print(my_new_dict)
+
+my_new_dict = dict.fromkeys(my_dict, "Rodriguez")  # It's the same as line 66
+print(my_new_dict)
+
+print("\n This value")
+print(my_new_dict.values())
+
+print("\n This new dict")
+print(list(my_new_dict))
+print("\n This new list value")
+print(list(my_new_dict.values()))
+
+print("\n This new tuple")
+print(tuple(my_new_dict))
+
+print("\n This new set")
+print(set(my_new_dict))
+
+print(my_new_dict)
+
+print("Values")
+print(dict.fromkeys(list(my_new_dict.values())))
+print(list(dict.fromkeys(list(my_new_dict.values()))))
+
+print("Keys")
+print(dict.fromkeys(list(my_new_dict.keys())))
+print(list(dict.fromkeys(list(my_new_dict.keys()))))
+
+print("Values + keys")
+print(list(dict.fromkeys(list(my_new_dict.values())).keys()))
+
+
