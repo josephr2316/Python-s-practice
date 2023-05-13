@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2294435a-0782-4654-a02e-c771557777c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_Variable/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_Variable/.idea/00_Variable.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_Variable/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_Variable/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_Variable/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_Variable/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_Variable/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_Operator/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../02_Operator/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_Operator/.idea/01_Operator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../02_Operator/.idea/02_Operator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_Operator/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02_Operator/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_Operator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02_Operator/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_Operator/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02_Operator/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_Operator/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02_Operator/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_Operator/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../02_Operator/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Variable/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Variable/.idea/01_Variable.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Variable/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Variable/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Variable/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Variable/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Variable/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Operator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Operator/.idea/02_Operator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Operator/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Operator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Operator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Operator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Operator/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +30,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/josep/Music/material de estudio/Programming/Python/02_Operator",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/josep/Music/material de estudio/Programming/Python/02_Operator&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="01_Variables" />
@@ -73,6 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683088239461</updated>
       <workItem from="1683088247749" duration="59000" />
+      <workItem from="1683088656655" duration="50000" />
     </task>
     <servers />
   </component>
