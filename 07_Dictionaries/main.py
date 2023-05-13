@@ -36,3 +36,36 @@ my_dict["Street"] = "San Martin Street"
 print(my_dict)
 
 
+del my_dict["Street"]
+print(my_dict)
+
+print("Surname" in my_dict)
+print("Street" in my_dict)
+print("Rodriguez Kelly" in my_dict)
+
+print(my_dict.items())
+print(my_dict.keys())
+print(my_dict.values())
+print(my_dict.fromkeys(("Name", 1)))
+print(my_other_dict.fromkeys(("Name", 1)))
+
+# my_new_dict = my_other_dict.fromkeys(("Name", 1, "Floor"))
+my_new_dict = dict.fromkeys(("Name", 1, "Floor"))
+print(my_new_dict)  # Create a new dictionary without value
+
+
+my_list = ["Name", 1, "Floor", "Surname"]
+my_new_dict = dict.fromkeys(my_list)
+print(my_new_dict)
+my_new_dict = dict.fromkeys((my_list))
+print(my_new_dict)
+
+my_new_dict = dict.fromkeys(("Name", 1, "Floor", "Surname"))
+print(my_new_dict)
+
+my_new_dict = dict.fromkeys(my_dict)
+print(my_new_dict)
+
+
+my_new_dict = dict.fromkeys(my_dict, )
+print(my_new_dict)
