@@ -30,15 +30,45 @@ def sum_two_values_with_return(first_number, second_number):
     return my_sum
 
 
-my_result = sum_two_values_with_return(10,5)
+my_result = sum_two_values_with_return(10, 5)
 print(my_result)
 my_result = sum_two_values(1.4, 5.2)  # Return null
 print(my_result)  # No values inside
 
 
-def print_name (name, surname):
+def print_name(name, surname):
     print(f"{name} {surname}")
     print("{name} {surname}")
 
 
 print_name("Joseph", "Rodriguez Kelly")
+print_name(surname="Rodriguez Kelly", name="Joseph")
+
+
+def print_name_with_default(name, surname, alias="Without alias"):
+    print(f"{name} {surname} {alias}")
+
+
+print_name_with_default("Joseph", "Rodriguez Kelly")
+print_name_with_default("Joseph", "Rodriguez Kelly", "Elior Arthur")
+
+
+def print_texts(*texts):  # * To print several texts
+    for text in texts:
+        print(text)
+    print(texts)
+
+
+def print_upper_texts(*texts):  # * To print several texts
+    for text in texts:
+        print(text.upper())
+
+
+def print_text(text):  # * To print several texts
+    print(text)
+
+
+print_texts("Hello", "Python", "Joseph Rodriguez")  # Tuple
+print_upper_texts("Hello", "Python", "Joseph Rodriguez")  # Tuple
+print_texts("Hello")
+print_text("Hello")
