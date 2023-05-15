@@ -60,6 +60,7 @@ def print_texts(*texts):  # * To print several texts
 
 
 def print_upper_texts(*texts):  # * To print several texts
+    print(type(texts))
     for text in texts:
         print(text.upper())
 
