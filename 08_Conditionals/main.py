@@ -37,5 +37,23 @@ else:
     print("It's less than or equal to 11 and greater than 20")
     print("It's less than or equal to 11 and greater than 20")
 
+my_condition = 5 * 3
+if my_condition == 15:
+    print("The seventh if condition is executed")
+elif 7 < my_condition < 20:
+    print("It's greater than 7 and less than 20")
+elif my_condition == 1:
+    print("It's equal to 1")
+else:
+    print("It's less than or equal to 7 and greater than 20")
 
 print("The execution continues")
+
+# my_string = ""  # it's false
+my_string = "My text string"
+
+if my_string:
+    print("My text string is not empty")
+
+if not my_string == "My textttttt string":
+    print("These strings  match")
